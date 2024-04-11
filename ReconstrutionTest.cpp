@@ -70,8 +70,8 @@ void ReconstrutionTest :: get_reconstruction_result() {
 
 void ReconstrutionTest::pirnt_data_size()
 {
-    cout << endl << "numbers of references :" << origin_seqs.size() << endl
-        << "numbers of references reads:";
+    cout << endl << "numbers of clusters :" << origin_seqs.size() << endl
+        << "numbers of reads in each clusters:";
     for (int i = 0; i < copy_seqs.size(); i++)
     {
         cout << "  " << copy_seqs[i].size();
